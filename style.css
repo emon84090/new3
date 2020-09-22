@@ -1,0 +1,315 @@
+
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+.navbar{
+
+
+	background: rgba(0, 210, 255, 0.64);
+}
+
+.nav-link{
+
+	color: black !important;
+	
+	font-family: arial;
+}
+
+
+
+
+
+.carousel-item{
+
+	height: 450px;
+
+}
+
+.img-1{
+
+background: linear-gradient(rgba(0, 0, 0, 0.42),rgba(0, 0, 0, 0.93)), url('14.jpg');
+background-size: cover;
+min-height: 500px;
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+.img-2{
+background: linear-gradient(rgba(0, 0, 0, 0.42),rgba(0, 0, 0, 0.93)), url('1.jpg');
+
+background-size: cover;
+min-height: 500px;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.img-3{
+background: linear-gradient(rgba(0, 0, 0, 0.42),rgba(0, 0, 0, 0.93)), url('17.jpg');
+
+
+background-size: cover;
+min-height: 500px;
+background-repeat: no-repeat;
+background-position: center;
+
+
+
+}
+
+.carousel-item{
+
+	width: 100%;
+	
+	position: relative;
+}
+
+.carousel-item:before{
+
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: black;
+	opacity: 0.1;
+}
+
+.skill{
+
+	width: 100%;
+	height: 80vh;
+	        background: linear-gradient(310deg, #fb4d14 50%, #00ff54 40%);
+
+
+}
+.progress{
+
+	height: 30px;
+}
+
+.names h1{
+
+	color: white !important;
+}
+
+.skill h1{
+
+	color: blue;
+	font-size: 40px;
+}
+
+
+
+.jscarousel1{
+
+	min-height: 500px;
+}
+
+#clock1 {
+
+	background: black !important;
+	color: red !important;
+	text-align: center;
+	font-family: arial;
+	font-size: 50px;
+	border-radius: 20px;
+}
+
+.carousel-caption h1{
+
+	margin-top: -250px;
+	font-size: 60px;
+	animation: anim 10s infinite;
+}
+
+
+.carousel-caption h2{
+
+	margin-top: 0px;
+	font-size: 60px;
+	animation: anim 10s infinite;
+}
+
+
+
+.btn-2 {
+    margin-left: 295px;
+    margin-bottom: 11px;
+
+}
+
+.red{
+
+	background: red;
+}
+
+
+.yellow{
+
+	background: yellow;
+}
+
+
+.green{
+
+	background: green;
+}
+
+.normal{
+
+	background: tomato;
+}
+
+.red1 {
+    background: red;
+    width: 49px;
+    height: 42px;
+}
+
+.yellow1 {
+    background: yellow;
+    height: 42px;
+    
+}
+
+.green1 {
+    background: green;
+    height: 42px;
+    
+}
+
+.normal1 {
+    background: white;
+    height: 42px;
+    
+}
+
+
+
+.fb{
+
+	text-decoration: none;
+
+
+
+	font-size: 30px;
+	color: white;
+	border-radius: 30px;
+	
+	padding: 10px 30px;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.fb:hover{
+
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3 ;
+	text-decoration: none;
+
+}
+
+
+
+.cont{
+
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.cont:before{
+
+	content: "";
+	width: 100%;
+	height: 100%;
+	 background: linear-gradient(280deg, red 50%, black 40%);
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+
+
+
+}
+
+.footer{
+
+	background: green;
+}
+
+
+
+
+
+
+
+
+@keyframes anim{
+
+0%{
+
+margin-top: -500px;
+
+}
+
+50%{
+
+
+	margin-top: -250px;
+	color:red;
+	transform: skew(180deg);
+}
+
+
+}
+
+@media(max-width: 900px){
+
+.carousel-caption h1{
+
+	font-size: 50px;
+}
+
+}
+
+
+@media(max-width: 750px){
+
+.carousel-caption h1{
+
+	font-size: 40px;
+}
+
+}
+
+
+@media(max-width: 600px){
+
+.carousel-caption h1{
+
+	font-size: 35px;
+}
+
+}
+
+@media(max-width: 525px){
+
+.carousel-caption h1{
+
+	font-size: 30px;
+}
+
+}
